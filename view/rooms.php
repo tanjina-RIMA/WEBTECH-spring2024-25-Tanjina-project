@@ -67,19 +67,25 @@
       <div class="room-card standard">
        <h3>Standard Room</h3>
     <p>Comfortable and affordable with essential amenities.</p>
-    <a href="https://virtual-tour.chrisogrady.com/singapore/hotel-indigo-singapore-katong/index.html?_gl=1*5xfds9*_ga*MTg1MzAxODg1NS4xNzUxMDM4ODIz*_ga_3TH7LLS6F5*czE3NTEwMzg4NTkkbzEkZzEkdDE3NTEwMzg4NzMkajQ2JGwwJGgw" target="_blank" style="display:inline-block; margin-top:10px; padding:8px 16px; background:#007BFF; color:#fff; text-decoration:none; border-radius:5px;">360° Virtual Tour</a>
+             <a href="../images/360SR.jpg" target="_blank" style="display:inline-block; margin-top:10px; padding:8px 16px; background:#007BFF; color:#fff; text-decoration:none; border-radius:5px;">   
+      360° Virtual Tour
+</a>
       </div>
       <div class="room-card deluxe">
         <h3>Deluxe Room</h3>
         <p>Extra space, premium features.</p>
-            <a href="https://www.vecteezy.com/photo/41461103-ai-generated-luxurious-hotel-room-with-a-breathtaking-view-of-the-bustling-city-below-showcasing-towering-skyscrapers-and-vibrant-city-lights" target="_blank" style="display:inline-block; margin-top:10px; padding:8px 16px; background:#007BFF; color:#fff; text-decoration:none; border-radius:5px;">360° Virtual Tour</a>
-
+             <a href="../images/360D.jpg" target="_blank" style="display:inline-block; margin-top:10px; padding:8px 16px; background:#007BFF; color:#fff; text-decoration:none; border-radius:5px;">   
+      360° Virtual Tour
+</a>
       </div>
       <div class="room-card suite">
-        <h3>Suite</h3>
-        <p>Luxury suite with top amenities.</p>
-        <a href="360tour_suite.html" target="_blank" style="color:#ffd;">360° Virtual Tour</a>
-      </div>
+  <h3>Suite</h3>
+  <p>Luxury suite with top amenities.</p>
+ <a href="../images/360s.jpeg" target="_blank" style="display:inline-block; margin-top:10px; padding:8px 16px; background:#007BFF; color:#fff; text-decoration:none; border-radius:5px;">
+  360° Virtual Tour
+</a>
+    
+
     </div>
   </div>
 

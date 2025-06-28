@@ -9,7 +9,7 @@ if (!isset($_SESSION['user'])) {
 include('../includes/db.php'); 
 date_default_timezone_set('Asia/Dhaka');
 
-// Optional PHP fallback if needed on page load (not used in JS)
+
 function isAmenityOpen($open_hours) {
     $oh = trim(strtolower($open_hours));
     if ($oh === '24/7' || $oh === '24-7' || $oh === 'always open') {
@@ -32,7 +32,7 @@ function isAmenityOpen($open_hours) {
     return ($now >= $open && $now <= $close);
 }
 
-// NEW: Normalize open_hours like "8 AM – 8 PM" to "08:00-20:00"
+
 function normalizeOpenHours($hours) {
     $hours = strtolower(trim($hours));
 
