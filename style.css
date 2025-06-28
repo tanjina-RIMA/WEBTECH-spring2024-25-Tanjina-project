@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding-top: 90px;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.main-content {
+    padding: 20px;
+    min-height: calc(100vh - 90px - 60px);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #004080;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    z-index: 100;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #004080;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    z-index: 100;
+}
+
+
+.filter-buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.filter-buttons button {
+    margin: 0 8px;
+    padding: 8px 16px;
+    font-size: 1em;
+    border: none;
+    background-color: #004080;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filter-buttons button:hover {
+    background-color: #0066cc;
+}
+
+.room-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.room-card {
+    width: 300px;
+    height: 250px;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.room-card > * {
+    position: relative;
+    z-index: 2;
+}
+
+.room-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+
+
+
+h2 {
+    text-align: center;
+    color: #004080;
+}
+
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 120px);
+}
+
+.login-box {
+    background:rgba(255, 255, 255, 0.95);
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+    width: 300px;
+    text-align: center;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #0066cc;
+}
+
+.error-msg {
+    color: red;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.room-card, .amenity-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+    margin: 15px;
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.guest-box {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+.form-button {
+    text-align: center;
+}
+
+.form-button button {
+    width: auto; 
+    padding: 10px 20px;
+}
+
+
+
