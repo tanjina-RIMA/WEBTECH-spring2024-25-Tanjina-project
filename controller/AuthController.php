@@ -28,7 +28,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($user && password_verify($password, $user['password'])) {
         $_SESSION['user'] = ['username' => $user['username'], 'name' => $user['name']];
         
-        // Add loyalty points or insert guest record
         $check = $conn->prepare("SELECT * FROM guests WHERE username = ?");
         $check->bind_param("s", $user['username']);
         $check->execute();
